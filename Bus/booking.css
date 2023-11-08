@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#booking-details {
+    display: none;
+    margin-top: 20px;
+}
+
+#booking-details h2 {
+    color: #333;
+}
+
+/* Add this CSS code to style your HTML */
+#bus-search-results {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #bus-search-results h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  #bus-search-results ul {
+    list-style: none;
+  }
+  
+  #bus-search-results li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #bus-search-results li button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #bus-search-results li button:hover {
+    background-color: var(--color-primary-darker);
+  }
+  
+
+  /* Style the seat selection section */
+#seat-selection {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #seat-selection h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  #seat-selection p {
+    font-size: 1.7rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  #selected-seats {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  #seat-selection button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #seat-selection button:hover {
+    background-color: var(--color-primary-darker);
+  }
+  
+  /* Style the payment options section */
+  #payment-options {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #payment-options h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  #payment-options p {
+    font-size: 1.7rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  #payment-method {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  #payment-options button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #payment-options button:hover {
+    background-color: var(--color-primary-darker);
+  }
+  
+  /* Style the booking confirmation section */
+  .confirmation-message {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .confirmation-message h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .confirmation-message p {
+    font-size: 1.7rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  #bus-search-results {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #bus-search-results h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  #bus-search-results ul {
+    list-style: none;
+  }
+  
+  #bus-search-results li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #bus-search-results li button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #bus-search-results li button:hover {
+    background-color: var(--color-primary-darker);
+  }
+  

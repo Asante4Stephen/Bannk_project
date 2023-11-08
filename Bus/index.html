@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  
+    <title>Ticketing System</title>
+</head>
+<body>
+    <header class="header" id="section--1">
+        <nav class="nav">
+          <img
+            src="img/logo.png"
+            alt="Pers logo"
+            class="nav__logo"
+            id="logo"
+            designer="Jonas"
+            data-version-number="3.0"
+          />
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#section--1">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--5">Companies</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--2">About</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#section--3">Testimonials</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#section--4">Contact Us</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn btn--show-modal" href=""
+              onclick="window.location.href='booking.html';"
+              >Book Now</a
+              >
+            </li>
+          </ul>
+        </nav>
+  
+        <div class="header__title">
+          <!-- <h1 onclick="alert('HTML alert')"> -->
+          <h1>
+            When
+            <!-- Green highlight effect -->
+            <span class="highlight">Traveling</span>
+            becomes<br />
+            <span class="highlight">Easy</span>
+          </h1>
+          <h4>A simpler Ticketing experience for a simpler life.</h4>
+          <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+          <img
+            src="bus1.png"
+            class="header__img"
+            alt=""
+          />
+        </div>
+      </header>
+
+      <section class="section" id="section--2">
+        <div class="section__title">
+          <h2 class="section__description">Features</h2>
+          <h3 class="section__header">
+            Everything you need in a modern transportation and more.
+          </h3>
+        </div>
+  
+        <div class="features">
+          <img
+            src="bus2.jfif"
+            data-src="img/digital.jpg"
+            alt="Computer"
+            class="features__img lazy-img"
+          />
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">100% Assurance</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+              sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+              debitis ducimus.
+            </p>
+          </div>
+  
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">experience your money value</h5>
+            <p>
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam!
+            </p>
+          </div>
+          <img
+            src="img/grow-lazy.jpg"
+            data-src="img/grow.jpg"
+            alt="Plant"
+            class="features__img lazy-img"
+          />
+  
+          <img
+            src="img/card-lazy.jpg"
+            data-src="img/card.jpg"
+            alt="Credit card"
+            class="features__img lazy-img"
+          />
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">Comfortability</h5>
+            <p>
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="section--5">
+        <div class="section__title">
+          <h2 class="section__description">Companies</h2>
+          <h3 class="section__header">
+            Choose from variety Companies.
+          </h3>
+        </div>
+  
+        <div class="operations">
+          <div class="operations__tab-container">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active"
+              data-tab="1"
+            >
+              <span>01</span>Company One
+            </button>
+            <button class="btn operations__tab operations__tab--2" data-tab="2">
+              <span>02</span>Company Two
+            </button>
+            
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <div class="operations__icon operations__icon--1">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-upload"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              Buy a ticket for anyone, instantly! No fees, no BS.
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+  
+          <div class="operations__content operations__content--2">
+            <div class="operations__icon operations__icon--2">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-home"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              Buy a Ticket and make your dream transport come true.
+            </h5>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <div class="operations__icon operations__icon--3">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-user-x"></use>
+              </svg>
+            </div>
+            <h5 class="operations__header">
+              No longer need your ticket? No problem! Cancel it instantly.
+            </h5>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="section--3">
+        <div class="section__title section__title--testimonials">
+          <h2 class="section__description">Not sure yet?</h2>
+          <h3 class="section__header">
+            Millions of traveller are already making their lifes simpler.
+          </h3>
+        </div>
+  
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">Best financial and convenient decision ever!</h5>
+              <blockquote class="testimonial__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusantium quas quisquam non? Quas voluptate nulla minima
+                deleniti optio ullam nesciunt, numquam corporis et asperiores
+                laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                id alias reiciendis, perferendis facere pariatur dolore veniam
+                autem esse non voluptatem saepe provident nihil molestiae.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Aarav Lynn</h6>
+                <p class="testimonial__location">Dzorwulu</p>
+              </address>
+            </div>
+          </div>
+  
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                The process is simple, fast and reliable  
+              </h5>
+              <blockquote class="testimonial__text">
+                Quisquam itaque deserunt ullam, quia ea repellendus provident,
+                ducimus neque ipsam modi voluptatibus doloremque, corrupti
+                laborum. Incidunt numquam perferendis veritatis neque repellendus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+                deserunt exercitationem deleniti.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Miyah Miles</h6>
+                <p class="testimonial__location">kumasi</p>
+              </address>
+            </div>
+          </div>
+  
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                Finally free from old-school queuing System
+              </h5>
+              <blockquote class="testimonial__text">
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+                deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+                alias reiciendis, perferendis facere.
+              </blockquote>
+              <address class="testimonial__author">
+                <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+                <h6 class="testimonial__name">Francisco Gomes</h6>
+                <p class="testimonial__location">Tarkwa</p>
+              </address>
+            </div>
+          </div>
+  
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+      <section class="section contact" id="section--6">
+        <div class="container">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">#</div>
+                <div class="text-two">#</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+233 55 909 1210</div>
+                <div class="text-two">+233 54 596 0073</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">michaelakoto100@gmail.com</div>
+                <div class="text-two">asanbrainy@gmil.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+             
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="email" placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+                  <textarea name="Message" placeholder="Leave your message here"></textarea>
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" >
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="footer" id="section--4">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a class="footer__link" href="#">About</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Pricing</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Terms of Use</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Careers</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <img src="img/icon.png" alt="Logo" class="footer__logo" />
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link twitter-link"
+            target="_blank"
+            href="https://twitter.com"
+            >Pers Systems Limited</a>
+        </p>
+      </footer>
+
+      <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+          Book Your Ticket <br />
+          in just <span class="highlight">Some Few Seconds</span>
+        </h2>
+        <form class="modal__form">
+          <label>Full Name</label>
+          <input type="text" id="fullName"/>
+          <label>Company</label>
+          <input list="browsers" name="browser" id="companies">
+
+            <datalist id="browsers">
+            <option value=" STC Transports">
+            <option value="VIP Transports">
+            <option value="VVIP Transports">
+            <option value="2M Express Transports">
+            <option value="FORD Transports">
+            
+            </datalist>
+          <label>Location</label>
+          <input list="location" name="browser" id="location">
+
+          <datalist id="location">
+            <option value="ACCRA">
+            <option value="TEMA">
+            <option value="TAKORADI">
+            <option value="KUMASI">
+            <option value="SUNYANI">
+            <option value="CAPE COAST">
+            
+          </datalist>
+          <label>Passengers</label>
+          <input type="number" id="passenger"/>
+          <label>Date</label>
+          <input type="date" id="date"/>
+          <label>Departure Time</label>
+          <input type="time" id="depTime"/>
+          <button class="btn" onclick="searchBuses()">Next step &rarr;</button>
+        </form>
+      </div>
+      <div class="overlay hidden"></div>
+
+         
+
+    
+
+
+      <script src="script.js"></script>
+      <script src="script2.js"></script>
+      
+</body>
+</html>

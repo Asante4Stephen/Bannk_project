@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Booking System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <h1>Bus Ticket Booking</h1>
+
+    <!-- Ticket Booking Form
+    <form id="ticket-booking-form">
+        <label for="departure">Departure Point:</label>
+        <input type="text" id="departure" required>
+
+        <label for="arrival">Arrival Point:</label>
+        <input type="text" id="arrival" required>
+
+        <label for="travel-date">Travel Date:</label>
+        <input type="date" id="travel-date" required>
+
+        <label for="passengers">Passengers:</label>
+        <input type="number" id="passengers" required>
+
+        <button type="button" onclick="searchBuses()">Search Buses</button>
+    </form>
+-->
+<form class="modal__form">
+    <label>Full Name</label>
+    <input type="text" id="fullName"/>
+    <label>Company</label>
+    <input list="browsers" name="browser" id="companies">
+
+      <datalist id="browsers">
+      <option value=" STC Transports">
+      <option value="VIP Transports">
+      <option value="VVIP Transports">
+      <option value="2M Express Transports">
+      <option value="FORD Transports">
+      
+      </datalist>
+    <label>Location</label>
+    <input list="locations" name="browser" id="location">
+
+    <datalist id="locations">
+      <option value="ACCRA">
+      <option value="TEMA">
+      <option value="TAKORADI">
+      <option value="KUMASI">
+      <option value="SUNYANI">
+      <option value="CAPE COAST">
+      
+    </datalist>
+    <label>Passengers</label>
+    <input type="number" id="passenger"/>
+    <label>Date</label>
+    <input type="date" id="depDate"/>
+    <label>Departure Time</label>
+    <input type="time" id="depTime"/>
+   <button type="button" onClick="searchBuses()">Search Buses</button>
+  </form>
+
+      <!-- Bus Search Results -->
+      <div id="bus-search-results">
+        <!-- Bus options will be displayed here -->
+        
+    </div>
+
+    <!-- Seat Selection -->
+    <div id="seat-selection">
+        <!-- Seat layout will be displayed here -->
+    </div>
+
+    <!-- Payment Options -->
+    <div id="payment-options">
+        <!-- Payment methods will be displayed here -->
+    </div>
+
+       <!-- Bus Search Results -->
+       <div id="bus-search-results">
+        <!-- Bus options will be displayed here -->
+    </div>
+
+    <!-- Seat Selection -->
+    <div id="seat-selection">
+        <!-- Seat layout will be displayed here -->
+    </div>
+
+    <!-- Payment Options -->
+    <div id="payment-options">
+        <!-- Payment methods will be displayed here -->
+    </div>
+ 
+    <script src="script.js"></script>
+    <script src="booking.js"></script>
+
+</body>
+</html>
